@@ -16,3 +16,6 @@ this will now download the ubuntu iso file (`-u <url>`) by restarting the downlo
 -s <savename>: the name the file should have after downloading. Default is 'downloadedFile'
 -h: help
 ```
+
+## PITFALLS
+don't forget to give the file execution right! User `chmod +x dlScript.sh`
