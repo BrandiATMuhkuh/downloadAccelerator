@@ -22,5 +22,9 @@ don't forget to give the file execution right! User `chmod +x dlScript.sh`
 
 ## FUTURE
 Download multible files at once. The restart does not work all the time. However, many server provide min download of about 200kb. So multibe connections are fine too
+
 `curl -L -o test1.mp4 -r 0-64368964  $URL` 
+
 `curl -sI $URL | grep Content-Length | awk '{print $2}'`
+
+great curl docu http://linux.about.com/od/commands/l/blcmdl1_curl.htm
